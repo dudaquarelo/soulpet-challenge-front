@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B02B0BFB-E4FF-D1FD-465A-952084C1CA60" name="Veiculos">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:09:41 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_veiculos" id="28629E46-F223-DBDF-64C7-31A71F55B9E5">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:09:56 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="8F786290-9F01-AAD1-488F-E4E5833407DB">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:13:16 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="D7343ACA-86CB-C8E5-7545-497BC79D7F78">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:14:12 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ano_fabricacao" id="67D3048C-B74F-598C-657A-046682DE684B">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:14:46 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transporte" id="F71266FD-AAC5-2E63-7971-A7A2B8752363">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:40:10 UTC</createdTime>
+<generatorID>2882316F-2F2C-4F48-8391-F63675F35406</generatorID>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<referedAttribute>5C6426D0-038D-DD09-E988-D1B2A4E9D359</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="260F2121-9D10-88F1-2417-392F514000E7" name="Veiculos PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:13:11 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28629E46-F223-DBDF-64C7-31A71F55B9E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

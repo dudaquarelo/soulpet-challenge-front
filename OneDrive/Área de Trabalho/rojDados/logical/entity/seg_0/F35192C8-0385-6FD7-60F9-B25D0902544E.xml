@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F35192C8-0385-6FD7-60F9-B25D0902544E" name="Rotas">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:17:44 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rotas" id="C4EBC5D9-C740-C9BE-E4C4-42721885E783">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:17:54 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="distancia" id="881B69DA-DF4D-D0BA-F7F6-787080EF8598">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:18:25 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estimativa_chegada" id="66B1B2A1-3220-6F83-E562-2EF0C4818480">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:18:38 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ponto_partida" id="9D659D15-9FA5-2686-C3E1-B20E343BAFAA">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:19:38 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ponto_chegada" id="7A93B4EE-5375-2152-40F8-2AFAEDC5DA03">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:19:57 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transporte" id="15D8ACEB-7828-B62E-6D8D-EF8E37585224">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:37:04 UTC</createdTime>
+<generatorID>34B5FC9B-8898-8355-ED4F-73D3816EFAF0</generatorID>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<referedAttribute>5C6426D0-038D-DD09-E988-D1B2A4E9D359</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="09933F72-1BF7-2686-1C0D-B6F386375B55" name="Rotas PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-04-29 00:18:04 UTC</createdTime>
+<ownerDesignName>rojDados</ownerDesignName>
+<engineerTo>
+<item key="5D2D8A04-7619-FB94-9878-0820C1DF219F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C4EBC5D9-C740-C9BE-E4C4-42721885E783</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
