@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TRABALHO DADOS" id="B27240DC-B6F0-4D99-0503-A91C56231595" version="3.5">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 14:51:04 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B27240DC-B6F0-4D99-0503-A91C56231595</designId>
+</OSDM_Design>

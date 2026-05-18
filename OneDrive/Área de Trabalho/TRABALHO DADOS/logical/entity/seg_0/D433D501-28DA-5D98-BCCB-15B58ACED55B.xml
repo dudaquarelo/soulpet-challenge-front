@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D433D501-28DA-5D98-BCCB-15B58ACED55B" name="Usuario_Missao">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:41:36 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nro_identificacao" id="508F0932-4DFF-78DB-B694-F05E8B18DB0C">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:41:56 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_realizacao" id="E03FB385-0B03-8B92-4F06-495A92052ADE">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:42:44 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_pontos_recebidos" id="DE43C833-F57F-59DC-D18B-B0A843A81FCC">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:43:01 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10000</dataTypePrecision>
+<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_conclusao" id="8D1FC6EB-18D7-F612-2BD1-C6338A17412C">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:43:55 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="B64C94D1-750C-40DF-1A6C-C8F762E9B7F8">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:46:52 UTC</createdTime>
+<generatorID>D089D752-2F13-68D0-9BEA-E2A46D22FBE2</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<referedAttribute>E17BA309-B7C0-F623-9EB4-E43D39A8492F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_missao" id="82B9D60F-2CCE-2794-20A4-6F05CA9A8846">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:47:02 UTC</createdTime>
+<generatorID>B23B7F6B-BC9E-6891-DCA0-E1EC298053A9</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<referedAttribute>CC9C11BB-EABE-B49B-FBE4-FEA2BDB9940B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="41102050-8774-0A4F-68F2-ABF26BE93F96" name="Usuario_Missao PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 15:42:40 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>508F0932-4DFF-78DB-B694-F05E8B18DB0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
