@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoulPet – Comunidade para quem ama pets 🐾</title>
+  <meta name="description" content="SoulPet é a comunidade dentro da SoulUp para tutores de pets. Complete missões, ganhe pontos e resgate recompensas para seu animal!" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>" />
+</head>
+<body>
+
+
+  <nav class="navbar" aria-label="Navegação principal">
+    <a href="index.html" class="nav-logo" aria-label="SoulPet - Página Inicial">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="pawGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#4338CA"/>
+            <stop offset="100%" style="stop-color:#A78BFA"/>
+          </linearGradient>
+        </defs>
+        <circle cx="16" cy="16" r="15" stroke="url(#pawGrad)" stroke-width="2" fill="none"/>
+        <ellipse cx="16" cy="19" rx="6" ry="5" fill="url(#pawGrad)"/>
+        <ellipse cx="10" cy="13" rx="2.5" ry="3" fill="url(#pawGrad)"/>
+        <ellipse cx="22" cy="13" rx="2.5" ry="3" fill="url(#pawGrad)"/>
+        <ellipse cx="13" cy="11" rx="2" ry="2.5" fill="url(#pawGrad)"/>
+        <ellipse cx="19" cy="11" rx="2" ry="2.5" fill="url(#pawGrad)"/>
+      </svg>
+      soulpet
+    </a>
+
+    <ul class="nav-menu" role="menubar">
+      <li role="none"><a href="index.html" class="nav-link" role="menuitem">Início</a></li>
+      <li role="none"><a href="pages/sobre.html" class="nav-link" role="menuitem">Sobre</a></li>
+      <li role="none"><a href="pages/missoes.html" class="nav-link" role="menuitem">Missões</a></li>
+      <li role="none"><a href="pages/recompensas.html" class="nav-link" role="menuitem">Recompensas</a></li>
+      <li role="none"><a href="pages/integrantes.html" class="nav-link" role="menuitem">Equipe</a></li>
+      <li role="none"><a href="pages/faq.html" class="nav-link" role="menuitem">FAQ</a></li>
+      <li role="none"><a href="pages/contato.html" class="nav-link nav-cta" role="menuitem">Contato</a></li>
+    </ul>
+
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span>🐾</span> Comunidade SoulUp
+          </div>
+          <h1 class="hero-title" id="hero-title">
+            Ajude pets,<br />
+            <span class="gradient-text">ganhe recompensas</span>
+          </h1>
+          <p class="hero-desc">
+            Na SoulPet você completa missões, acumula pontos e troca por produtos reais para o seu pet — sem gastar um centavo. Tudo pelo bem dos animais!
+          </p>
+          <div class="hero-actions">
+            <a href="pages/sobre.html" class="btn btn-primary btn-lg">Conhecer o projeto</a>
+            <a href="pages/missoes.html" class="btn btn-outline btn-lg">Ver missões</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <div class="hero-stat-number"><span data-target="1200" data-suffix="+">0</span></div>
+              <div class="hero-stat-label">Missões disponíveis</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-number"><span data-target="50" data-suffix="+">0</span></div>
+              <div class="hero-stat-label">Recompensas</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-number"><span data-target="5000" data-suffix="+">0</span></div>
+              <div class="hero-stat-label">Pets beneficiados</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-mockup">
+            <div class="mockup-header">
+              <div class="mockup-header-logo">
+                <span>🐾</span> SoulPet
+              </div>
+              <span style="font-size:0.75rem; opacity:0.8">Olá, Tutora! 👋</span>
+            </div>
+
+            <div class="mockup-balance">
+              <div class="mockup-balance-label">Minha Carteira Pet</div>
+              <div class="mockup-balance-value">850 pts</div>
+              <div class="mockup-balance-sub">Faltam 150 pts para próxima recompensa 🎁</div>
+            </div>
+
+            <div class="mockup-grid">
+              <div class="mockup-grid-item">
+                <div class="mockup-grid-icon" style="background:#EDE9FE">🎯</div>
+                <div class="mockup-grid-label">Missões</div>
+              </div>
+              <div class="mockup-grid-item">
+                <div class="mockup-grid-icon" style="background:#DBEAFE">🔄</div>
+                <div class="mockup-grid-label">Trocar</div>
+              </div>
+              <div class="mockup-grid-item">
+                <div class="mockup-grid-icon" style="background:#FCE7F3">🛍️</div>
+                <div class="mockup-grid-label">Loja</div>
+              </div>
+              <div class="mockup-grid-item">
+                <div class="mockup-grid-icon" style="background:#FEF3C7">❤️</div>
+                <div class="mockup-grid-label">Doar</div>
+              </div>
+            </div>
+
+            <div class="mockup-missions">
+              <div class="mockup-missions-title">🔥 Missões do Dia</div>
+              <div class="mockup-mission-item">
+                <span class="mockup-mission-text">Curta 5 posts</span>
+                <span class="mockup-mission-pts">+50 pts</span>
+              </div>
+              <div class="mockup-mission-item">
+                <span class="mockup-mission-text">Compartilhe uma adoção</span>
+                <span class="mockup-mission-pts">+100 pts</span>
+              </div>
+              <div class="mockup-mission-item">
+                <span class="mockup-mission-text">Comente em 3 posts</span>
+                <span class="mockup-mission-pts">+30 pts</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="hero-floating-card card-1">
+            <div class="floating-icon">🏆</div>
+            <div>
+              <div class="floating-text-main">Missão completa!</div>
+              <div class="floating-text-sub">+100 pontos ganhos</div>
+            </div>
+          </div>
+
+          <div class="hero-floating-card card-2">
+            <div class="floating-icon">🎁</div>
+            <div>
+              <div class="floating-text-main">Ração Premium</div>
+              <div class="floating-text-sub">300 pts · Disponível</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" aria-labelledby="how-title">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">✨ Como funciona</span>
+          <h2 class="section-title" id="how-title">Simples, divertido e <span>recompensador</span></h2>
+          <p class="section-subtitle">Três passos para transformar o seu amor pelos pets em recompensas reais.</p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card card animate-in">
+            <div class="feature-icon">🎯</div>
+            <h3 class="feature-title">Complete Missões</h3>
+            <p class="feature-desc">
+              Escolha entre missões fáceis, médias ou difíceis. Cada uma tem um prazo e um valor em pontos diferente. Quanto mais difícil, mais você ganha!
+            </p>
+          </article>
+
+          <article class="feature-card card animate-in" data-delay="150">
+            <div class="feature-icon">⭐</div>
+            <h3 class="feature-title">Acumule Pontos</h3>
+            <p class="feature-desc">
+              Cada missão concluída te dá pontos que ficam guardados na sua carteira. Suba de nível e desbloqueie recompensas exclusivas!
+            </p>
+          </article>
+
+          <article class="feature-card card animate-in" data-delay="300">
+            <div class="feature-icon">🎁</div>
+            <h3 class="feature-title">Resgate Recompensas</h3>
+            <p class="feature-desc">
+              Troque seus pontos por ração, coleiras, areia, brinquedos e muito mais — sem gastar um centavo do seu bolso!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" style="background: var(--gradient-soft);" aria-labelledby="missions-title">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">🎯 Missões</span>
+          <h2 class="section-title" id="missions-title">Missões para <span>todos os níveis</span></h2>
+          <p class="section-subtitle">Fácil, médio ou difícil — escolha o seu ritmo e comece a ganhar pontos agora!</p>
+        </div>
+
+        <div class="missions-tabs" role="tablist" aria-label="Filtro de missões">
+          <button class="missions-tab active" role="tab" aria-selected="true" data-level="all">Todas</button>
+          <button class="missions-tab" role="tab" aria-selected="false" data-level="easy">🟢 Fácil</button>
+          <button class="missions-tab" role="tab" aria-selected="false" data-level="medium">🟡 Médio</button>
+          <button class="missions-tab" role="tab" aria-selected="false" data-level="hard">🔴 Difícil</button>
+        </div>
+
+        <div class="missions-grid" aria-live="polite">
+          <article class="mission-card card animate-in" data-level="easy">
+            <span class="mission-difficulty difficulty-easy">🟢 Fácil</span>
+            <h3 class="mission-title">Curtir 5 posts da comunidade</h3>
+            <p class="mission-desc">Interaja com publicações da SoulPet e mostre seu apoio para a comunidade de tutores.</p>
+            <div class="mission-progress"><div class="mission-progress-bar" data-width="60"></div></div>
+            <div class="mission-footer">
+              <span class="mission-pts">+50 pts</span>
+              <span class="mission-deadline">⏱ Até 24h</span>
+            </div>
+          </article>
+
+          <article class="mission-card card animate-in" data-level="easy" data-delay="100">
+            <span class="mission-difficulty difficulty-easy">🟢 Fácil</span>
+            <h3 class="mission-title">Comentar em 3 publicações</h3>
+            <p class="mission-desc">Deixe comentários construtivos em posts da comunidade e engaje com outros tutores.</p>
+            <div class="mission-progress"><div class="mission-progress-bar" data-width="33"></div></div>
+            <div class="mission-footer">
+              <span class="mission-pts">+30 pts</span>
+              <span class="mission-deadline">⏱ Até 24h</span>
+            </div>
+          </article>
+
+          <article class="mission-card card animate-in" data-level="medium" data-delay="200">
+            <span class="mission-difficulty difficulty-medium">🟡 Médio</span>
+            <h3 class="mission-title">Compartilhar campanha de adoção</h3>
+            <p class="mission-desc">Divulgue uma campanha de adoção de pets e ajude animais a encontrarem um lar amoroso.</p>
+            <div class="mission-progress"><div class="mission-progress-bar" data-width="0"></div></div>
+            <div class="mission-footer">
+              <span class="mission-pts">+100 pts</span>
+              <span class="mission-deadline">⏱ Até 7 dias</span>
+            </div>
+          </article>
+
+          <article class="mission-card card animate-in" data-level="medium" data-delay="100">
+            <span class="mission-difficulty difficulty-medium">🟡 Médio</span>
+            <h3 class="mission-title">Publicar foto do seu pet</h3>
+            <p class="mission-desc">Compartilhe um momento especial com o seu pet e receba pontos pelo engajamento da comunidade.</p>
+            <div class="mission-progress"><div class="mission-progress-bar" data-width="75"></div></div>
+            <div class="mission-footer">
+              <span class="mission-pts">+80 pts</span>
+              <span class="mission-deadline">⏱ Até 7 dias</span>
+            </div>
+          </article>
+
+          <article class="mission-card card animate-in" data-level="hard" data-delay="200">
+            <span class="mission-difficulty difficulty-hard">🔴 Difícil</span>
+            <h3 class="mission-title">Ajudar 3 pets a encontrar um lar</h3>
+            <p class="mission-desc">Participe ativamente de 3 processos de adoção como facilitador ou divulgador dentro da plataforma.</p>
+            <div class="mission-progress"><div class="mission-progress-bar" data-width="0"></div></div>
+            <div class="mission-footer">
+              <span class="mission-pts">+300 pts</span>
+              <span class="mission-deadline">⏱ Até 30 dias</span>
+            </div>
+          </article>
+
+          <article class="mission-card card animate-in" data-level="hard" data-delay="300">
+            <span class="mission-difficulty difficulty-hard">🔴 Difícil</span>
+            <h3 class="mission-title">Organizar evento pet na comunidade</h3>
+            <p class="mission-desc">Crie e promova um evento presencial ou online relacionado ao bem-estar animal e tutores de pets.</p>
+            <div class="mission-progress"><div class="mission-progress-bar" data-width="0"></div></div>
+            <div class="mission-footer">
+              <span class="mission-pts">+500 pts</span>
+              <span class="mission-deadline">⏱ Até 30 dias</span>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem">
+          <a href="pages/missoes.html" class="btn btn-primary">Ver todas as missões →</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" aria-labelledby="rewards-title">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-badge">🎁 Recompensas</span>
+          <h2 class="section-title" id="rewards-title">Troque pontos por <span>produtos reais</span></h2>
+          <p class="section-subtitle">Sem gastar dinheiro! Use seus pontos para resgatar produtos de qualidade para o seu pet.</p>
+        </div>
+
+        <div class="rewards-grid">
+          <article class="reward-card card animate-in">
+            <span class="reward-emoji">🍖</span>
+            <div class="reward-name">Ração Premium 15kg</div>
+            <div class="reward-pts">300 pts</div>
+            <div class="reward-pts-label">Resgate com pontos</div>
+          </article>
+
+          <article class="reward-card card animate-in" data-delay="100">
+            <span class="reward-emoji">🦴</span>
+            <div class="reward-name">Brinquedo de Corda</div>
+            <div class="reward-pts">150 pts</div>
+            <div class="reward-pts-label">Resgate com pontos</div>
+          </article>
+
+          <article class="reward-card card animate-in" data-delay="200">
+            <span class="reward-emoji">🐱</span>
+            <div class="reward-name">Areia para Gato 4kg</div>
+            <div class="reward-pts">200 pts</div>
+            <div class="reward-pts-label">Resgate com pontos</div>
+          </article>
+
+          <article class="reward-card card animate-in" data-delay="300">
+            <span class="reward-emoji">🛏️</span>
+            <div class="reward-name">Caminha Conforto</div>
+            <div class="reward-pts">500 pts</div>
+            <div class="reward-pts-label">Resgate com pontos</div>
+          </article>
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem">
+          <a href="pages/recompensas.html" class="btn btn-outline">Ver loja completa →</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container">
+        <span class="section-badge" style="background:rgba(255,255,255,0.2); color:white">🐾 Junte-se a nós</span>
+        <h2 class="section-title" id="cta-title">Pronto para começar a <span style="color:var(--lilac)">ajudar?</span></h2>
+        <p class="section-subtitle" style="color: rgba(255,255,255,0.85)">
+          Entre para a SoulPet, complete missões e faça parte de uma comunidade que transforma o amor por pets em impacto real.
+        </p>
+        <a href="pages/sobre.html" class="btn btn-lg" style="background:white; color:var(--primary); box-shadow: 0 8px 24px rgba(0,0,0,0.2)">
+          Saiba mais sobre o projeto
+        </a>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">🐾 soulpet</div>
+          <p class="footer-tagline">Comunidade dentro da SoulUp para quem ama e cuida de pets. Complete missões, ganhe pontos e resgate recompensas!</p>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Navegação</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="pages/sobre.html">Sobre o Projeto</a></li>
+            <li><a href="pages/missoes.html">Missões</a></li>
+            <li><a href="pages/recompensas.html">Recompensas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Comunidade</h3>
+          <ul class="footer-links">
+            <li><a href="pages/integrantes.html">Nossa Equipe</a></li>
+            <li><a href="pages/faq.html">FAQ</a></li>
+            <li><a href="pages/contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Projeto</h3>
+          <ul class="footer-links">
+            <li><a href="#">GitHub</a></li>
+            <li><a href="pages/sobre.html">Tecnologias</a></li>
+            <li><a href="pages/sobre.html">Roadmap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 SoulPet · Projeto challenge FIAP</p>
+        <p>Feito com 💜 pela equipe SoulPet</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
