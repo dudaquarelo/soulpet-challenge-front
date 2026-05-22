@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* Cores principais */
+  --primary:        #4338CA;
+  --primary-light:  #6366F1;
+  --secondary:      #7C3AED;
+  --accent:         #A78BFA;
+  --lilac:          #C4B5FD;
+  --lilac-light:    #EDE9FE;
+  --blue:           #3B82F6;
+  --blue-light:     #93C5FD;
+
+  /* Gradientes */
+  --gradient:       linear-gradient(135deg, #4338CA 0%, #7C3AED 50%, #A78BFA 100%);
+  --gradient-soft:  linear-gradient(135deg, #EDE9FE 0%, #DBEAFE 100%);
+  --gradient-pink:  linear-gradient(135deg, #EF4444, #EC4899);
+
+  /* Backgrounds */
+  --bg:             #F5F3FF;
+  --bg-card:        #FFFFFF;
+  --bg-dark:        #1E1B4B;
+  --white:          #FFFFFF;
+
+  /* Texto */
+  --text-dark:      #1E1B4B;
+  --text-body:      #374151;
+  --text-muted:     #6B7280;
+
+  /* Bordas */
+  --border:         #E5E7EB;
+  --border-soft:    #DDD6FE;
+
+  /* Sombras */
+  --shadow-sm:      0 2px 8px rgba(99, 102, 241, 0.12);
+  --shadow-md:      0 8px 24px rgba(99, 102, 241, 0.18);
+  --shadow-lg:      0 16px 48px rgba(99, 102, 241, 0.22);
+
+  /* Bordas arredondadas */
+  --radius-sm:  8px;
+  --radius-md:  16px;
+  --radius-lg:  24px;
+  --radius-xl:  32px;
+
+  /* Tipografia */
+  --font-display: 'Poppins', sans-serif;
+  --font-body:    'Nunito', sans-serif;
+}
