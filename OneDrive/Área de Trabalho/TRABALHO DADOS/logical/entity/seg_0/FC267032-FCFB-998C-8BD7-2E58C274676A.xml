@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC267032-FCFB-998C-8BD7-2E58C274676A" name="Usuario">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC267032-FCFB-998C-8BD7-2E58C274676A" name="Usuarios">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 14:56:32 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
@@ -70,22 +70,9 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_cadastro" id="E22F52BF-53F0-F5C3-B583-8C9C47F80833">
+<Attribute name="qt_pontos" id="3D2931C6-E5AA-A494-295C-3DEC6805D408">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:05:47 UTC</createdTime>
-<ownerDesignName>TRABALHO DADOS</ownerDesignName>
-<engineerTo>
-<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="qt_pontos" id="7301C714-DE1C-8F33-66B1-8CBD356E2B1F">
-<createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:07:31 UTC</createdTime>
+<createdTime>2026-05-19 01:47:28 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
 <engineerTo>
 <item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
@@ -94,8 +81,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10000</dataTypePrecision>
-<ownDataTypeParameters>,10000,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -103,8 +90,9 @@
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 14:58:37 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

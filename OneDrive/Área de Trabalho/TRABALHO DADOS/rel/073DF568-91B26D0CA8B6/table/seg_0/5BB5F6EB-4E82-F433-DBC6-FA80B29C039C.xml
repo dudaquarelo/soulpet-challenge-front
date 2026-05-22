@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BB5F6EB-4E82-F433-DBC6-FA80B29C039C" name="Comunidade_Ong">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>AFDACB23-7465-4E65-DC8D-49781FCFFE35</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comunidade" id="FE71D031-E722-32AD-C034-0FEEB9C8C29F">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>78535F24-31F7-91AE-7917-BC26EA77BCC1</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_comunidade" id="49F939E3-8CA2-B36B-52EC-01B21B23048F">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>AAD0CEDC-38C7-356B-2B89-29AB81F85F6A</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_comunidade" id="954FE349-9913-785C-7414-C836029E3992">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>1E343618-DB61-5B00-7371-78EC261176D0</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_comunidade" id="D1443CAB-D34D-1F62-B9BC-2A7E3070727B">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>D9162567-F462-4FD8-7E57-6F0923C5ED4C</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD278B8D-BE44-3328-9CAC-C4B652FCA322" name="Comunidade_Ong_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>1F951805-072B-903C-D0E6-BCADEA3F06D9</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE71D031-E722-32AD-C034-0FEEB9C8C29F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

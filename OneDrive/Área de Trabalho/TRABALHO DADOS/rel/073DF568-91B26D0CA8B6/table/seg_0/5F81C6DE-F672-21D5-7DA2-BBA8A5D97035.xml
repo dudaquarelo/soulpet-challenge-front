@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F81C6DE-F672-21D5-7DA2-BBA8A5D97035" name="Usuario_Missao">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>D433D501-28DA-5D98-BCCB-15B58ACED55B</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario_missao" id="46529BFE-E06D-3C58-A8CA-559CE94CEC11">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>508F0932-4DFF-78DB-B694-F05E8B18DB0C</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_realizacao" id="C7CFA7A6-6DE6-4CD8-3260-9DE7F76442ED">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>E03FB385-0B03-8B92-4F06-495A92052ADE</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_pontos_recebidos" id="434CA47F-37A4-0D88-42BE-45CB340D0CD7">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>DE43C833-F57F-59DC-D18B-B0A843A81FCC</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_missao_usuario" id="56AA4198-185B-C2FA-9058-692E1F3E555A">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>8D1FC6EB-18D7-F612-2BD1-C6338A17412C</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="E4DF84A9-CFAF-700F-97D8-451B3EDF6FD7">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>B64C94D1-750C-40DF-1A6C-C8F762E9B7F8</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0CF3FCF2-9DE9-D282-1D89-23371F6E9DB7" referredColumn="41A17197-8BF8-152B-C464-E6EED42C6E61"/>
+</associations>
+</Column>
+<Column name="id_missao" id="B2FCE8B2-1E6C-5C30-1E84-9FC81950EEFE">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>82B9D60F-2CCE-2794-20A4-6F05CA9A8846</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7065D627-9BE5-B9B0-3769-B84E65ACA228" referredColumn="F09E10F9-B585-12A6-9E8C-896CAB6908A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF4AD2BF-269A-5425-EFAF-72F05F2B8C96" name="Usuario_Missao_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>41102050-8774-0A4F-68F2-ABF26BE93F96</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46529BFE-E06D-3C58-A8CA-559CE94CEC11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBA62A33-5F87-319D-73EF-E26A9F66277B" name="Usuario_Missao_Usuarios_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>D089D752-2F13-68D0-9BEA-E2A46D22FBE2</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4DF84A9-CFAF-700F-97D8-451B3EDF6FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79186F8F-73A0-FDA2-88C1-F8C5A6CE4885" name="Usuario_Missao_Missao_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>B23B7F6B-BC9E-6891-DCA0-E1EC298053A9</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2FCE8B2-1E6C-5C30-1E84-9FC81950EEFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

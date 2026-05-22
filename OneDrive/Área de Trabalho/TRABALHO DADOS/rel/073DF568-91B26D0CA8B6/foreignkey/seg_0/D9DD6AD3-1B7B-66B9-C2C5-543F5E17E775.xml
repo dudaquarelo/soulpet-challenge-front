@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9DD6AD3-1B7B-66B9-C2C5-543F5E17E775" containerWithKeyObject="24E53162-377A-8C75-69BC-18DE310E46C9" localFKIndex="BCCBB441-9070-C667-D6D7-17DA485E5061" name="Missao_Comunidade_Ong_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-18 16:18:10 UTC</createdTime>
+<generatorID>1B9692D9-7F07-1801-9BBA-A565794BA294</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<referredTableLongName>Comunidade_Ong</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5BB5F6EB-4E82-F433-DBC6-FA80B29C039C</referredTableID>
+<keyObject>AD278B8D-BE44-3328-9CAC-C4B652FCA322</keyObject>
+<referredKeyID>AD278B8D-BE44-3328-9CAC-C4B652FCA322</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_comunidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

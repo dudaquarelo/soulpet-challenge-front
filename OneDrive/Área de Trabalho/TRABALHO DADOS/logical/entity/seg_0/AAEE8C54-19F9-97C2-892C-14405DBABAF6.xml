@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8BDE40AB-BC3E-EABD-E5FD-E68F336E3E5F" name="Pets">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAEE8C54-19F9-97C2-892C-14405DBABAF6" name="Usuario_Recompensa">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:19:26 UTC</createdTime>
+<createdTime>2026-05-19 01:01:45 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
 <engineerTo>
 <item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pet" id="BE383EE7-C119-8B4E-1F19-99BD82AEC871">
+<Attribute name="id_usuario_recompensa " id="3FAA710E-EE83-B0E1-4BB4-3D91A5D3BC1E">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:22:08 UTC</createdTime>
+<createdTime>2026-05-19 01:02:15 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
 <engineerTo>
 <item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_pet" id="C8A35F3E-0A4B-1DF2-B356-D8E350AC6730">
+<Attribute name="dt_resgate" id="DB1A38FC-A78B-677D-70E5-B8772841B398">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 22:36:17 UTC</createdTime>
+<createdTime>2026-05-19 01:02:40 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
 <engineerTo>
 <item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
@@ -38,55 +38,13 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 CHAR</dataTypeSize>
-<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="st_pet" id="22746A06-91F7-CC72-A2FD-075EDF73F167">
-<createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:22:30 UTC</createdTime>
-<ownerDesignName>TRABALHO DADOS</ownerDesignName>
-<engineerTo>
-<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ft_pet" id="E90B16A9-0A84-0A53-F1A7-5F82B649CEA8">
-<createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 22:39:47 UTC</createdTime>
-<ownerDesignName>TRABALHO DADOS</ownerDesignName>
-<engineerTo>
-<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT010</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="esp_pet" id="B274D4FA-77E9-9A42-14BB-E8FD0CFB87E4">
+<Attribute name="id_usuario" id="40B9A9A2-FE7E-8755-7F06-AB65DB1A8E06">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:22:52 UTC</createdTime>
-<ownerDesignName>TRABALHO DADOS</ownerDesignName>
-<engineerTo>
-<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_usuario" id="7A92ED0A-83A4-F6A3-27E7-4FB021AAAB6A">
-<createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:48:59 UTC</createdTime>
-<generatorID>088A026C-4C74-A228-6EBB-5E43C5CFF98E</generatorID>
+<createdTime>2026-05-19 01:03:52 UTC</createdTime>
+<generatorID>A4DDAFED-594D-3EF3-DB3C-9E311F047C7A</generatorID>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
 <engineerTo>
 <item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
@@ -98,11 +56,40 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_recompensa" id="DB94A4A7-48F5-705D-FECA-09D988565E5E">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-19 01:04:01 UTC</createdTime>
+<generatorID>D3D8D0EF-B09E-4D46-A703-DCCBAF282863</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<referedAttribute>716E8662-43E6-6D63-85EE-5D9FF92A43B4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_pontos" id="92255FB3-1063-ACA4-09E5-122E86632A7D">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-19 01:18:11 UTC</createdTime>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<engineerTo>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="35A8CBB5-AEB9-7FB4-5429-A992F710883C" name="Doacao PK">
+<identifier id="D6BBFBC2-2440-1EA4-4219-57DE9066F6F5" name="Usuario_Recompensa PK">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:22:27 UTC</createdTime>
+<createdTime>2026-05-19 01:02:36 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -110,7 +97,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BE383EE7-C119-8B4E-1F19-99BD82AEC871</attributeRef>
+<attributeRef>3FAA710E-EE83-B0E1-4BB4-3D91A5D3BC1E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

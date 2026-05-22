@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4DD09F9F-D6C4-E885-29A8-8EA7A77BBFD3" containerWithKeyObject="F6E98E68-C248-A132-759A-7C4E95BD1521" localFKIndex="C250F64E-AE7D-9AEE-C537-8D29930FB991" name="Usuario_Recompensa_Recomp_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-19 02:21:18 UTC</createdTime>
+<generatorID>D3D8D0EF-B09E-4D46-A703-DCCBAF282863</generatorID>
+<ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<referredTableLongName>Recompensas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>09CB68DE-3D42-D7CC-5C61-AA7159294D8F</referredTableID>
+<keyObject>F0710D20-1BE9-C6A7-BEBE-F487C86EFE0A</keyObject>
+<referredKeyID>F0710D20-1BE9-C6A7-BEBE-F487C86EFE0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_recompensa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

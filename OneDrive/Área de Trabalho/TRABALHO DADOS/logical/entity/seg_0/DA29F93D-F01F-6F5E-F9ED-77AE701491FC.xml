@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA29F93D-F01F-6F5E-F9ED-77AE701491FC" name="Pontuacao">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA29F93D-F01F-6F5E-F9ED-77AE701491FC" name="Recompensas">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 15:24:19 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pontuacao" id="716E8662-43E6-6D63-85EE-5D9FF92A43B4">
+<Attribute name="id_recompensa" id="716E8662-43E6-6D63-85EE-5D9FF92A43B4">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 15:24:28 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qt_pontos" id="A533B28B-35F3-F256-64A2-32A780D78DDA">
+<Attribute name="ds_recompensa" id="A533B28B-35F3-F256-64A2-32A780D78DDA">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 15:24:54 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
@@ -38,11 +38,11 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>100000</dataTypePrecision>
-<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_origem" id="4884D94D-E4DA-953D-9F00-89029908CC8B">
+<Attribute name="nm_recompensa" id="4884D94D-E4DA-953D-9F00-89029908CC8B">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 15:26:12 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
@@ -53,10 +53,10 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_pontuacao" id="42C435AA-B085-0D74-2F58-8D98BF0159E9">
+<Attribute name="qt_pontos_necessarios" id="42C435AA-B085-0D74-2F58-8D98BF0159E9">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 15:26:12 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
@@ -66,24 +66,23 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="6DCFBA08-75E3-B042-220F-2FD73F58BA19">
+<Attribute name="st_recompensa" id="3F3C064C-BB7D-4818-8E89-B3FA894D5093">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-05-18 15:50:13 UTC</createdTime>
-<generatorID>C9E83828-98A1-744D-AF75-DFE60B276C07</generatorID>
+<createdTime>2026-05-19 01:00:46 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
 <engineerTo>
 <item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>E17BA309-B7C0-F623-9EB4-E43D39A8492F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -91,8 +90,9 @@
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-18 15:24:38 UTC</createdTime>
 <ownerDesignName>TRABALHO DADOS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="true"/>
+<item key="073DF568-FF65-DA50-9606-91B26D0CA8B6" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
