@@ -5,7 +5,8 @@
 ---
 
 ## 📋 Descrição do Projeto
-A SoulPet é uma plataforma web gamificada desenvolvida como parte do Challenge da FIAP, criada pela equipe InovaLab da turma 1TDSR-2026. A ideia é uma comunidade para tutores e amantes de pets dentro de um ecossistema da SoulUp.
+A SoulPet é uma plataforma web gamificada voltada para tutores e amantes de animais, criada pela equipe InovaLab como parte do Challenge da FIAP. A plataforma vai funcionar dentro do aplicativo da SoulUp, com o objetivo de criar uma comunidade engajada onde os usuários podem completar missões relacionadas ao cuidado com pets e acumular pontos.
+Os pontos acumulados podem ser resgatados por produtos para pets ou doados para ONGs parceiras, incentivando boas práticas de cuidado animal de forma divertida e interativa.
 
 ---
 
