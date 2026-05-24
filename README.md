@@ -69,6 +69,21 @@ Projeto desenvolvido pela equipe **InovaLab** — Turma **1TDSR-2026** | FIAP - 
 | Isabelle Souza Lima Pires Araujo | 569370 | 1TDSR-2026 | [LinkedIn](https://www.linkedin.com/in/isabelle-souza-9342a027a/) | [GitHub](https://github.com/isasouzz) |
 | Thays Lira de Oliveira | 568799 | 1TDSR-2026 | [LinkedIn](https://www.linkedin.com/in/thays-lira-538619186/) | [GitHub](https://github.com/thaylira2026-hub) |
 
+---
+ 
+## 🖼️ Imagens do Projeto
+ 
+**Página Inicial**
+![Página Inicial](img/home.png)
+ 
+**Missões**
+![Missões](img/missoes.png)
+ 
+**Recompensas**
+![Recompensas](img/recompensas.png)
+
+---
+
 ## 📬 Contato
  
 Dúvidas, sugestões ou suporte? Entre em contato com a equipe:
@@ -77,4 +92,4 @@ Dúvidas, sugestões ou suporte? Entre em contato com a equipe:
 - 🐙 GitHub do repositório: [soulpet-challenge-front](https://github.com/dudaquarelo/soulpet-challenge-front)
 ---
 
-<p align="center">Feito com 💜 pela equipe Inovalab · © 2026 FIAP Challenge</p>
+<p align="center">Feito com 💜 pela equipe InovaLab · © 2026 FIAP Challenge</p>
