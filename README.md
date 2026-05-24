@@ -77,4 +77,4 @@ Dúvidas, sugestões ou suporte? Entre em contato com a equipe:
 - 🐙 GitHub do repositório: [soulpet-challenge-front](https://github.com/dudaquarelo/soulpet-challenge-front)
 ---
 
-<p align="center">Feito com 💜 pela equipe SoulPet · © 2026 FIAP Challenge</p>
+<p align="center">Feito com 💜 pela equipe Inovalab · © 2026 FIAP Challenge</p>
