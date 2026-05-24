@@ -1,4 +1,4 @@
-/* Barra de Carteira */
+/* Wallet Bar*/
 .wallet-bar {
   margin-top: 2rem;
   background: white;
@@ -169,7 +169,7 @@
 }
 
 .store-btn-donate {
-  background: var(--gradient-pink);
+  background: linear-gradient(135deg, #EF4444, #EC4899);
 }
 
 .store-card-donation {
@@ -311,4 +311,15 @@
 .modal-confirm:hover {
   opacity: 0.9;
   transform: scale(1.02);
+}
+
+
+/* Responsivo */
+@media (max-width: 1024px) {
+  .store-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .store-grid { grid-template-columns: repeat(2, 1fr); }
+  .donate-banner { flex-direction: column; text-align: center; }
 }

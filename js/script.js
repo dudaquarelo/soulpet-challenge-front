@@ -293,4 +293,89 @@ if (filterPills.length && missionsCount) {
   });
 }
 
+/*Filtro Loja (recompensas.html)*/
+const storeTabs = document.querySelectorAll('.store-tab');
+const storeCards = document.querySelectorAll('#storeGrid .store-card');
+const storeCount = document.getElementById('storeCount');
+
+if (storeTabs.length && storeCount) {
+  storeTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const cat = tab.dataset.cat;
+      storeTabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+
+      let visible = 0;
+      storeCards.forEach(card => {
+        const show = cat === 'all' || card.dataset.cat === cat;
+        card.style.display = show ? 'block' : 'none';
+        if (show) { visible++; card.style.animation = 'fadeSlideUp 0.35s ease both'; }
+      });
+
+      const labels = { all: 'itens', food: 'produtos de alimentação', toy: 'brinquedos', accessory: 'acessórios', donation: 'opções de doação' };
+      storeCount.textContent = `${visible} ${labels[cat]}`;
+    });
+  });
+}
+
+/*Modal de Resgate (recompensas.html)*/
+let currentProduct = null;
+
+function openModal(name, icon, pts) {
+  currentProduct = { name, pts };
+  document.getElementById('modalIcon').textContent = icon;
+  document.getElementById('modalTitle').textContent = name;
+  document.getElementById('modalDesc').textContent = `Deseja usar seus pontos para resgatar "${name}"?`;
+  document.getElementById('modalPts').textContent = `${pts} pts`;
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  currentProduct = null;
+}
+
+function confirmRedeem() {
+  if (!currentProduct) return;
+  const walletEl = document.getElementById('walletPts');
+  const current = parseInt(walletEl.textContent);
+
+  if (current < currentProduct.pts) {
+    document.getElementById('modalTitle').textContent = 'Pontos insuficientes 😅';
+    document.getElementById('modalDesc').textContent = 'Você não tem pontos suficientes para este resgate. Complete mais missões e tente novamente!';
+    document.getElementById('modalPts').textContent = `Você tem: ${current} pts`;
+    document.querySelector('.modal-confirm').style.display = 'none';
+    return;
+  }
+
+  walletEl.textContent = current - currentProduct.pts;
+  closeModal();
+
+  const toast = document.createElement('div');
+  toast.textContent = `✅ ${currentProduct.name} resgatado com sucesso!`;
+  toast.style.cssText = `
+    position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%);
+    background: #1E1B4B; color: white; padding: 1rem 2rem;
+    border-radius: 50px; font-weight: 700; z-index: 9999;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3); animation: fadeSlideUp 0.3s ease both;
+    font-family: 'Nunito', sans-serif;
+  `;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 3000);
+}
+
+const modalOverlay = document.getElementById('modalOverlay');
+if (modalOverlay) {
+  modalOverlay.addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) closeModal();
+  });
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeModal();
+});
+
 console.log('🐾 SoulPet - JS Loaded');
