@@ -2,7 +2,7 @@ const navbar = document.querySelector('.navbar');
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 
-
+/*Navbar scroll*/
 window.addEventListener('scroll', () => {
   if (window.scrollY > 20) {
     navbar.classList.add('scrolled');
@@ -11,6 +11,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
+/*Mobile menu*/
 if (navToggle && navMenu) {
   navToggle.addEventListener('click', () => {
     navToggle.classList.toggle('active');
@@ -18,6 +19,7 @@ if (navToggle && navMenu) {
     document.body.style.overflow = navMenu.classList.contains('open') ? 'hidden' : '';
   });
 
+  /*Fechar menu on link click*/
   navMenu.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
       navToggle.classList.remove('active');
@@ -26,6 +28,7 @@ if (navToggle && navMenu) {
     });
   });
 
+  /*Fechar menu on outside click*/
   document.addEventListener('click', (e) => {
     if (!navbar.contains(e.target) && navMenu.classList.contains('open')) {
       navToggle.classList.remove('active');
@@ -49,7 +52,7 @@ function setActiveNavLink() {
 }
 setActiveNavLink();
 
-
+/*Animações scroll*/
 const animateElements = document.querySelectorAll('.animate-in');
 
 const observer = new IntersectionObserver((entries) => {
@@ -71,7 +74,7 @@ animateElements.forEach((el, i) => {
   observer.observe(el);
 });
 
-
+/*Tabs Missões*/
 const missionsTabs = document.querySelectorAll('.missions-tab');
 const missionsCards = document.querySelectorAll('.mission-card[data-level]');
 
@@ -93,7 +96,7 @@ missionsTabs.forEach(tab => {
   });
 });
 
-
+/*FAQ*/
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach(item => {
@@ -116,7 +119,7 @@ faqItems.forEach(item => {
   });
 });
 
-
+/*Validação formulário de contato*/
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
@@ -185,7 +188,7 @@ if (contactForm) {
   });
 }
 
-
+/*Animação contador de pontos*/
 function animateCounter(el) {
   const target = parseInt(el.dataset.target);
   const duration = 1500;
@@ -214,7 +217,7 @@ const counterObserver = new IntersectionObserver((entries) => {
 
 counters.forEach(counter => counterObserver.observe(counter));
 
-
+/*Animação barra de progresso*/
 const progressBars = document.querySelectorAll('.mission-progress-bar');
 const progressObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -232,7 +235,7 @@ progressBars.forEach(bar => {
   progressObserver.observe(bar);
 });
 
-
+/*Tolltip*/
 document.querySelectorAll('[data-tooltip]').forEach(el => {
   el.addEventListener('mouseenter', (e) => {
     const tooltip = document.createElement('div');
