@@ -266,4 +266,31 @@ document.querySelectorAll('[data-tooltip]').forEach(el => {
   });
 });
 
+/*Filtro Missões (missoes.html)*/
+const filterPills = document.querySelectorAll('.filter-pill');
+const missionCardsFilter = document.querySelectorAll('#missionsGrid .mission-card-full');
+const missionsCount = document.getElementById('missions-count');
+
+if (filterPills.length && missionsCount) {
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      const filter = pill.dataset.filter;
+
+      filterPills.forEach(p => { p.classList.remove('active'); p.setAttribute('aria-pressed', 'false'); });
+      pill.classList.add('active');
+      pill.setAttribute('aria-pressed', 'true');
+
+      let visible = 0;
+      missionCardsFilter.forEach(card => {
+        const show = filter === 'all' || card.dataset.level === filter;
+        card.style.display = show ? 'block' : 'none';
+        if (show) { visible++; card.style.animation = 'fadeSlideUp 0.35s ease both'; }
+      });
+
+      const labels = { all: 'missões', easy: 'missões fáceis', medium: 'missões médias', hard: 'missões difíceis' };
+      missionsCount.textContent = `${visible} ${labels[filter]}`;
+    });
+  });
+}
+
 console.log('🐾 SoulPet - JS Loaded');
