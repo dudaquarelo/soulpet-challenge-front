@@ -52,10 +52,10 @@ soulpet-challenge-front/
 ---
 
 ## 🔗 Repositório
- 
- 
-👉 [Acesse o projeto completo no GitHub](https://github.com/dudaquarelo/soulpet-challenge-front)
- 
+
+Acesse o projeto completo no GitHub:
+👉 https://github.com/dudaquarelo/soulpet-challenge-front 
+
 ---
 
 ## 👥 Integrantes da equipe
