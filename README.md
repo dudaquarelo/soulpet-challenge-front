@@ -58,9 +58,9 @@ Acesse o projeto completo no GitHub:
 
 ---
 
-## 👥 Integrantes da equipe
+## 👥 Autores e créditos
  
-Projeto desenvolvido pela equipe **InovaLab** — Turma **1TDSR-2026** | FIAP · Análise e Desenvolvimento de Sistemas · 1º Sprint · 2026
+Projeto desenvolvido pela equipe **InovaLab** — Turma **1TDSR-2026** | FIAP - Análise e Desenvolvimento de Sistemas - 2026. 
  
 | Nome | RM | Turma | LinkedIn | GitHub |
 |---|---|---|---|---|
@@ -73,7 +73,7 @@ Projeto desenvolvido pela equipe **InovaLab** — Turma **1TDSR-2026** | FIAP ·
  
 Dúvidas, sugestões ou suporte? Entre em contato com a equipe:
  
-- 💼 LinkedIn da equipe: veja a tabela de integrantes acima
+- 💼 LinkedIn da equipe: veja a tabela de autores acima
 - 🐙 GitHub do repositório: [soulpet-challenge-front](https://github.com/dudaquarelo/soulpet-challenge-front)
 ---
 
