@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F31D20CD-73FB-BA8A-BE4C-138B7F4D6766" name="Monitoramento">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:50:33 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_monitoramento" id="D0D5B058-F3C7-FC1D-742D-A151852B0D88">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:50:49 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_zona" id="9D140914-C2F3-3323-F18C-C91E9E842965">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:51:22 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_coordenadas" id="6E88E344-937D-DE09-BD40-043AE8A093A3">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:52:16 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_umidade_minima" id="158BE58F-B71F-5B5C-3F00-99D70D4E3AF8">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:52:54 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_umidade_maxima" id="AE0C216C-C140-1CD3-CAA8-56C3EC7540CB">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:53:40 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_propriedade" id="202C4E63-F3BD-B73D-24C4-DE5092F18E15">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:07:16 UTC</createdTime>
+<generatorID>F907783D-E5C5-4431-DFFD-6352842D409F</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<referedAttribute>F9540913-1BD7-BECC-7AC6-9A4FE42A9A44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D28912C8-55D2-D46B-0386-7AAEA4C20ACD" name="Monitoramento PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:51:17 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0D5B058-F3C7-FC1D-742D-A151852B0D88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

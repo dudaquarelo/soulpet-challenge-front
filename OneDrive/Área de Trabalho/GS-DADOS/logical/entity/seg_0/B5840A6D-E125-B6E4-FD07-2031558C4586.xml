@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5840A6D-E125-B6E4-FD07-2031558C4586" name="Satelite">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:54:14 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name=" id_satelite" id="1C55F19F-8F27-E636-E383-EEC2A0F89730">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:54:34 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_satelite" id="4C2BAF9E-AB71-0138-0EEF-D198DE7C3D61">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:54:51 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sensor" id="F556A585-3FCE-4B6B-8E3D-A602475BBF14">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:55:14 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_status" id="38A2E239-3545-93D9-1A29-CC8F6AF76022">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:55:52 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A0D5F66-80F0-03CC-558F-382EC679D8BF" name="Satelite PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:54:49 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C55F19F-8F27-E636-E383-EEC2A0F89730</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

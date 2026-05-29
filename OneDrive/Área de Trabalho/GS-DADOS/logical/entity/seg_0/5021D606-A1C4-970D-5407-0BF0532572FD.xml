@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5021D606-A1C4-970D-5407-0BF0532572FD" name="Propriedade">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:44:33 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_propriedade" id="F9540913-1BD7-BECC-7AC6-9A4FE42A9A44">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:44:43 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_propriedade" id="B057DF1F-D8FF-D569-160E-89D9470ADE25">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:45:12 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_localizacao" id="7F55FB56-96D0-E29E-D129-8AE90BA1864C">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:48:41 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_agricultor" id="DF19E9C2-72E1-C8DB-E25D-F0295917F6A6">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:04:50 UTC</createdTime>
+<generatorID>189D0939-3284-0192-0EE8-C53DBBDB6261</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<referedAttribute>42E78C08-E1BC-1377-47D2-22191A188831</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_hectares" id="9DC54937-64CC-9E35-13D9-85FCF9BD5238">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:18:33 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E698D4E5-963D-8FDD-D0F8-6CCCDCE9A1F1" name="Propriedade PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:48:36 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<engineerTo>
+<item key="6B0334A7-2A91-7A6A-BDEA-279BE046CBF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9540913-1BD7-BECC-7AC6-9A4FE42A9A44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

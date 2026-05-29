@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1952326E-49BF-FCDE-6335-A84C7B5EEC6A" containerWithKeyObject="66168A30-577C-C94D-0DBB-1C50FFE7BC08" localFKIndex="EED14FB7-5A71-C0D8-AEB6-3B0EB74A03A4" name="Propriedade_Agricultor_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>189D0939-3284-0192-0EE8-C53DBBDB6261</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<referredTableLongName>Agricultor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5A876D66-6594-F2A3-AC0E-44C35B6550FD</referredTableID>
+<keyObject>F8FD4287-D5E7-B387-EFBB-863AA010DE56</keyObject>
+<referredKeyID>F8FD4287-D5E7-B387-EFBB-863AA010DE56</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_agricultor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

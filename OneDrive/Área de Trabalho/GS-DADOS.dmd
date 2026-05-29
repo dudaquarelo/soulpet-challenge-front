@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GS-DADOS" id="CA3998A4-9862-ED0C-18BC-2D51F446ABEB" version="3.5">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 05:23:56 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CA3998A4-9862-ED0C-18BC-2D51F446ABEB</designId>
+</OSDM_Design>

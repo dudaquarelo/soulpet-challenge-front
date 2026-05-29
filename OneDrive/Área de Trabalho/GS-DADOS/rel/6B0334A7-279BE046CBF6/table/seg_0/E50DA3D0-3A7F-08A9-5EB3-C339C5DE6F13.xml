@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E50DA3D0-3A7F-08A9-5EB3-C339C5DE6F13" name="Monitoramento_Satelite">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>19F818AE-7771-87B8-4951-63CE3D116C00</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_monitoramento" id="44A7B709-1CDD-4BD3-3737-DFC9953A24DD">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>0E87FC20-5658-8D0C-D55C-BBABF9A1030C</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_captura" id="94739A67-61DD-6E37-1E60-C82ACE38F398">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>B5D21859-EF5D-96E1-039D-8A962A6FDA7D</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_monitoramento_1" id="2322D541-813B-4181-CF94-7E0FE1CAFA88">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>0C0E2B8B-A80C-F7BB-F73B-2AA7CFEBFAE4</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="752FC336-1E6B-E10A-A6EF-B5DF9BB6546E" referredColumn="16F2117B-0DC6-3B6E-A39F-0F9B8E158B22"/>
+</associations>
+</Column>
+<Column name="id_satelite" id="C6DE726B-5381-8BC2-9695-3E96BA19AE83">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>170032D2-D3DA-BF64-F9E5-E3387B95B0BB</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FB3E351-594A-2E25-673E-189216B795D9" referredColumn="6F9AA269-40F2-1D1B-633E-823B6CD73AA4"/>
+</associations>
+</Column>
+<Column name="nr_umidade_capturada" id="78F9D42E-F104-39D2-2BCC-70E93634BA14">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>9AEB5768-1CCD-D25B-0E34-4E0523250973</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9C3ED9D-3253-F155-68B6-37242DC28A0B" name="Monitoramento_Satelite_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>13BED6A3-7A34-C639-7972-C8854B38772F</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44A7B709-1CDD-4BD3-3737-DFC9953A24DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54D0317D-C9FB-9FFC-D62D-449C05AC36A2" name="Monitoramento_Satelite__UN">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:41:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2322D541-813B-4181-CF94-7E0FE1CAFA88"/>
+<colUsage columnID="C6DE726B-5381-8BC2-9695-3E96BA19AE83"/>
+<colUsage columnID="94739A67-61DD-6E37-1E60-C82ACE38F398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0746406C-5929-5D3B-C046-2609A1406901" name="Monitoramento_Satelite_Monito_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>E1658EAA-00FB-AF28-519E-0DB3981BE85C</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2322D541-813B-4181-CF94-7E0FE1CAFA88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72246DD5-D41A-94E9-C6EC-01B66B7BE86D" name="Monitoramento_Satelite_Sat_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>5BCB0EF9-9A75-7D15-8844-812A1AFB2EDE</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6DE726B-5381-8BC2-9695-3E96BA19AE83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A876D66-6594-F2A3-AC0E-44C35B6550FD" name="Agricultor">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>85C0C437-F98A-4A65-B072-05DFF17C8A67</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_agricultor" id="3A3AAF82-B243-0CAF-53DD-AC7C00364D73">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>42E78C08-E1BC-1377-47D2-22191A188831</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_agricultor" id="27E62AEA-2ECD-8495-77BD-AA13693450EE">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>9DCB009E-816B-6382-BD6A-3DBD8CC51396</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="40A33FF8-0E79-643E-FF16-45AC271FF768">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>DA7EE955-B574-E611-BEC5-DF130E7A6A95</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="25D39285-7C3E-9F0B-C59A-AB269C333144">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>5C471905-4BA1-8B01-4BF1-B12E510BD38A</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="183DA3EE-0EBF-1310-5EE5-A23805199396">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>07ECD026-42BD-2340-821F-252D1BC76AA1</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8FD4287-D5E7-B387-EFBB-863AA010DE56" name="Agricultor_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>903EB831-F461-1526-4A4B-C87B993322E9</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A3AAF82-B243-0CAF-53DD-AC7C00364D73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

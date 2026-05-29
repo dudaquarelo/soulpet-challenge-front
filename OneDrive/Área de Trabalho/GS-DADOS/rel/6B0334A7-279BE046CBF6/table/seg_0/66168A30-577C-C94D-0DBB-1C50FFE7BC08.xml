@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66168A30-577C-C94D-0DBB-1C50FFE7BC08" name="Propriedade">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>5021D606-A1C4-970D-5407-0BF0532572FD</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_propriedade" id="1CDFEB18-0A5D-D902-B2F7-3EDFB055554A">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>F9540913-1BD7-BECC-7AC6-9A4FE42A9A44</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_propriedade" id="6BDB599B-5B68-0DF8-A2CD-F5886F0311AF">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>B057DF1F-D8FF-D569-160E-89D9470ADE25</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_localizacao" id="574C8CB6-0B21-B16F-5A88-E49FEC71AF21">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>7F55FB56-96D0-E29E-D129-8AE90BA1864C</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_agricultor" id="C066F30D-8D1F-AB5F-2822-0CB29AC31C58">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>DF19E9C2-72E1-C8DB-E25D-F0295917F6A6</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1952326E-49BF-FCDE-6335-A84C7B5EEC6A" referredColumn="3A3AAF82-B243-0CAF-53DD-AC7C00364D73"/>
+</associations>
+</Column>
+<Column name="nr_hectares" id="A3103801-011B-D8E0-FF43-75C3DE6F7061">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>9DC54937-64CC-9E35-13D9-85FCF9BD5238</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="580BF78E-8EFB-1554-B3C3-E803698365D6" name="Propriedade_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>E698D4E5-963D-8FDD-D0F8-6CCCDCE9A1F1</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CDFEB18-0A5D-D902-B2F7-3EDFB055554A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EED14FB7-5A71-C0D8-AEB6-3B0EB74A03A4" name="Propriedade_Agricultor_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>189D0939-3284-0192-0EE8-C53DBBDB6261</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C066F30D-8D1F-AB5F-2822-0CB29AC31C58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

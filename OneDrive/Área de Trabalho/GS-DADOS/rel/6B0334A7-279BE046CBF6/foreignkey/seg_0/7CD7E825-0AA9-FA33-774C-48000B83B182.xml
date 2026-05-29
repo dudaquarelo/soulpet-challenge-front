@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7CD7E825-0AA9-FA33-774C-48000B83B182" containerWithKeyObject="80CB2CF8-BC3E-BA05-22EF-26D07AE88387" localFKIndex="C8891FE6-7919-26CE-1D93-5415FD0BF90E" name="Alerta_Irrigacao_Monitora_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>23369D71-9202-ADE3-F455-30BCED27FE34</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<referredTableLongName>Monitoramento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0193BCB-C63C-478A-FCAF-7185D4F26960</referredTableID>
+<keyObject>06548511-7665-DFF0-CBCA-8B10051BCED2</keyObject>
+<referredKeyID>06548511-7665-DFF0-CBCA-8B10051BCED2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_monitoramento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

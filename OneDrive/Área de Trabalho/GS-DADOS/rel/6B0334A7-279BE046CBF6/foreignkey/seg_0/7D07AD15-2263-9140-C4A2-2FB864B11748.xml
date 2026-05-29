@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7D07AD15-2263-9140-C4A2-2FB864B11748" containerWithKeyObject="E0193BCB-C63C-478A-FCAF-7185D4F26960" localFKIndex="6CF75056-8F1A-3C32-F85F-F65689DB64CA" name="Monitoramento_Propriedade_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-05-29 06:22:28 UTC</createdTime>
+<generatorID>F907783D-E5C5-4431-DFFD-6352842D409F</generatorID>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<referredTableLongName>Propriedade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66168A30-577C-C94D-0DBB-1C50FFE7BC08</referredTableID>
+<keyObject>580BF78E-8EFB-1554-B3C3-E803698365D6</keyObject>
+<referredKeyID>580BF78E-8EFB-1554-B3C3-E803698365D6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_propriedade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
