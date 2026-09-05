@@ -104,7 +104,7 @@
 <colUsage columnID="94739A67-61DD-6E37-1E60-C82ACE38F398"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0746406C-5929-5D3B-C046-2609A1406901" name="Monitoramento_Satelite_Monito_FK">
+<ind_PK_UK id="0746406C-5929-5D3B-C046-2609A1406901" name="Monitoramento_Satelite_Moni_FK">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-05-29 06:22:28 UTC</createdTime>
 <generatorID>E1658EAA-00FB-AF28-519E-0DB3981BE85C</generatorID>
