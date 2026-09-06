@@ -9,7 +9,8 @@ export interface Reward {
   isDonation?: boolean
 }
 
-export const rewards: Reward[] = [
+export const rewards: Reward[] = 
+[
   { id: '1', emoji: '🍖', name: 'Ração Premium Cão 15kg', description: 'Ração completa e balanceada para cães adultos de todas as raças.', points: 300, badge: 'Popular', category: 'food' },
   { id: '2', emoji: '🐟', name: 'Ração Premium Gato 3kg', description: 'Nutrição completa para gatos adultos com taurina e ômega-3.', points: 180, category: 'food' },
   { id: '3', emoji: '🐱', name: 'Areia para Gato 4kg', description: 'Areia granulada com controle de odores e alta absorção.', points: 200, category: 'food' },
