@@ -2,7 +2,7 @@ const navbar = document.querySelector('.navbar');
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 
-
+/*Navbar scroll*/
 window.addEventListener('scroll', () => {
   if (window.scrollY > 20) {
     navbar.classList.add('scrolled');
@@ -11,6 +11,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
+/*Mobile menu*/
 if (navToggle && navMenu) {
   navToggle.addEventListener('click', () => {
     navToggle.classList.toggle('active');
@@ -18,6 +19,7 @@ if (navToggle && navMenu) {
     document.body.style.overflow = navMenu.classList.contains('open') ? 'hidden' : '';
   });
 
+  /*Fechar menu on link click*/
   navMenu.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
       navToggle.classList.remove('active');
@@ -26,6 +28,7 @@ if (navToggle && navMenu) {
     });
   });
 
+  /*Fechar menu on outside click*/
   document.addEventListener('click', (e) => {
     if (!navbar.contains(e.target) && navMenu.classList.contains('open')) {
       navToggle.classList.remove('active');
@@ -49,7 +52,7 @@ function setActiveNavLink() {
 }
 setActiveNavLink();
 
-
+/*Animações scroll*/
 const animateElements = document.querySelectorAll('.animate-in');
 
 const observer = new IntersectionObserver((entries) => {
@@ -71,7 +74,7 @@ animateElements.forEach((el, i) => {
   observer.observe(el);
 });
 
-
+/*Tabs Missões*/
 const missionsTabs = document.querySelectorAll('.missions-tab');
 const missionsCards = document.querySelectorAll('.mission-card[data-level]');
 
@@ -93,7 +96,7 @@ missionsTabs.forEach(tab => {
   });
 });
 
-
+/*FAQ*/
 const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach(item => {
@@ -116,7 +119,7 @@ faqItems.forEach(item => {
   });
 });
 
-
+/*Validação formulário de contato*/
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
@@ -185,7 +188,7 @@ if (contactForm) {
   });
 }
 
-
+/*Animação contador de pontos*/
 function animateCounter(el) {
   const target = parseInt(el.dataset.target);
   const duration = 1500;
@@ -214,7 +217,7 @@ const counterObserver = new IntersectionObserver((entries) => {
 
 counters.forEach(counter => counterObserver.observe(counter));
 
-
+/*Animação barra de progresso*/
 const progressBars = document.querySelectorAll('.mission-progress-bar');
 const progressObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
@@ -232,7 +235,7 @@ progressBars.forEach(bar => {
   progressObserver.observe(bar);
 });
 
-
+/*Tolltip*/
 document.querySelectorAll('[data-tooltip]').forEach(el => {
   el.addEventListener('mouseenter', (e) => {
     const tooltip = document.createElement('div');
@@ -261,6 +264,118 @@ document.querySelectorAll('[data-tooltip]').forEach(el => {
   el.addEventListener('mouseleave', () => {
     document.querySelectorAll('.tooltip-popup').forEach(t => t.remove());
   });
+});
+
+/*Filtro Missões (missoes.html)*/
+const filterPills = document.querySelectorAll('.filter-pill');
+const missionCardsFilter = document.querySelectorAll('#missionsGrid .mission-card-full');
+const missionsCount = document.getElementById('missions-count');
+
+if (filterPills.length && missionsCount) {
+  filterPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      const filter = pill.dataset.filter;
+
+      filterPills.forEach(p => { p.classList.remove('active'); p.setAttribute('aria-pressed', 'false'); });
+      pill.classList.add('active');
+      pill.setAttribute('aria-pressed', 'true');
+
+      let visible = 0;
+      missionCardsFilter.forEach(card => {
+        const show = filter === 'all' || card.dataset.level === filter;
+        card.style.display = show ? 'block' : 'none';
+        if (show) { visible++; card.style.animation = 'fadeSlideUp 0.35s ease both'; }
+      });
+
+      const labels = { all: 'missões', easy: 'missões fáceis', medium: 'missões médias', hard: 'missões difíceis' };
+      missionsCount.textContent = `${visible} ${labels[filter]}`;
+    });
+  });
+}
+
+/*Filtro Loja (recompensas.html)*/
+const storeTabs = document.querySelectorAll('.store-tab');
+const storeCards = document.querySelectorAll('#storeGrid .store-card');
+const storeCount = document.getElementById('storeCount');
+
+if (storeTabs.length && storeCount) {
+  storeTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const cat = tab.dataset.cat;
+      storeTabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+
+      let visible = 0;
+      storeCards.forEach(card => {
+        const show = cat === 'all' || card.dataset.cat === cat;
+        card.style.display = show ? 'block' : 'none';
+        if (show) { visible++; card.style.animation = 'fadeSlideUp 0.35s ease both'; }
+      });
+
+      const labels = { all: 'itens', food: 'produtos de alimentação', toy: 'brinquedos', accessory: 'acessórios', donation: 'opções de doação' };
+      storeCount.textContent = `${visible} ${labels[cat]}`;
+    });
+  });
+}
+
+/*Modal de Resgate (recompensas.html)*/
+let currentProduct = null;
+
+function openModal(name, icon, pts) {
+  currentProduct = { name, pts };
+  document.getElementById('modalIcon').textContent = icon;
+  document.getElementById('modalTitle').textContent = name;
+  document.getElementById('modalDesc').textContent = `Deseja usar seus pontos para resgatar "${name}"?`;
+  document.getElementById('modalPts').textContent = `${pts} pts`;
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  currentProduct = null;
+}
+
+function confirmRedeem() {
+  if (!currentProduct) return;
+  const walletEl = document.getElementById('walletPts');
+  const current = parseInt(walletEl.textContent);
+
+  if (current < currentProduct.pts) {
+    document.getElementById('modalTitle').textContent = 'Pontos insuficientes 😅';
+    document.getElementById('modalDesc').textContent = 'Você não tem pontos suficientes para este resgate. Complete mais missões e tente novamente!';
+    document.getElementById('modalPts').textContent = `Você tem: ${current} pts`;
+    document.querySelector('.modal-confirm').style.display = 'none';
+    return;
+  }
+
+  walletEl.textContent = current - currentProduct.pts;
+  closeModal();
+
+  const toast = document.createElement('div');
+  toast.textContent = `✅ ${currentProduct.name} resgatado com sucesso!`;
+  toast.style.cssText = `
+    position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%);
+    background: #1E1B4B; color: white; padding: 1rem 2rem;
+    border-radius: 50px; font-weight: 700; z-index: 9999;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3); animation: fadeSlideUp 0.3s ease both;
+    font-family: 'Nunito', sans-serif;
+  `;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.remove(), 3000);
+}
+
+const modalOverlay = document.getElementById('modalOverlay');
+if (modalOverlay) {
+  modalOverlay.addEventListener('click', (e) => {
+    if (e.target === e.currentTarget) closeModal();
+  });
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeModal();
 });
 
 console.log('🐾 SoulPet - JS Loaded');
