@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53D5AA7D-BBCB-5FF5-06BF-41307C30C927" name="Recompensas">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>EDA1D9BE-C773-E86D-A9E8-E2DCC22E42B4</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_recompensa" id="AB1AE790-18B3-899D-4422-B6EA530F11FD">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>EE6EC136-F488-5C8F-6830-0F391591E660</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_recompensa" id="54040C3C-B170-1D6E-0084-4FA3C675A26D">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>9CE51864-74D4-1944-C2A6-D8002C64CC01</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_recompensa" id="D29AA983-63C9-D586-7216-322C2BF4C00F">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>7E496625-2C47-051E-AA9F-5084DB9F7752</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_custo_pontos" id="C56D8CC8-1280-6D13-F961-CB206F07D5CC">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>8CEA5975-5A49-8762-8A2D-28E67FB3E7BF</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_recompensa" id="EDC9D5A7-D1C1-1B84-8DB6-02249074CAE5">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>05BEE2F7-61BD-9450-9CDF-AEDBCECBC9DE</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_estoque" id="2FD4C558-8849-0AB3-9DFB-88657C37E0FF">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>3CF68AD7-3043-3913-222B-CF2701856E74</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48E5090B-9409-428E-74F7-B40F26C4EE4C" name="Recompensas_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>4349FD99-7315-3168-53F8-EDB5AD979F4D</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB1AE790-18B3-899D-4422-B6EA530F11FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

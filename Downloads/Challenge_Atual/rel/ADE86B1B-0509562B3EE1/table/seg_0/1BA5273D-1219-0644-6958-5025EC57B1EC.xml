@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BA5273D-1219-0644-6958-5025EC57B1EC" name="Missao">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>156F3771-381C-0E11-FB08-395937CA6508</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_missao" id="41EDA0A9-6F58-0082-7E26-3118FC24AD63">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>463B5B83-CFDD-69D5-6C31-0CD7919CA18F</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_titulo" id="0689AEF9-FC8B-0EA6-F591-B501F5716A62">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>01D1E3B7-CE5C-1F1E-5BB0-5167B2B1EED3</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_missao" id="CB5F8053-3DFC-C5F1-A5C1-67031E63796B">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>B54F3FE7-FE2A-195E-C5F7-C38F6C575953</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_pontos_recompensa" id="D61FB659-469D-3DBE-A3D1-371A6B3FC86E">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>83AD697E-8776-4DC4-B7F1-2042121E3978</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_concluida" id="084267DA-CCC9-155C-47CA-501E79296777">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>6E596423-8D5C-D281-4762-5B2C252BC42C</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comunidade_Ong_ID" id="16D7F0C6-6B67-6E7B-EEE8-EEF7465640F2">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_comunidade" id="77F07816-2D51-092A-E9BE-F976DCA3D23B">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:43:45 UTC</createdTime>
+<generatorID>C2C9A76B-BD28-D899-5A26-ADAC9B7B0699</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05060B95-CEE9-9009-6AA0-8D7AA259FB80" referredColumn="A5E30C16-42EE-E427-B9A2-1A8C9DB1E71F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47CD676C-5B20-5D92-E691-D9172AF9EE82" name="Missao_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>0CE88D3D-CBC9-6C74-83EC-1245E8496ED3</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41EDA0A9-6F58-0082-7E26-3118FC24AD63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E15DEA1E-784A-1EB3-451D-3BD8AC445F7E" name="Missao_Comunidade_Ong_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>2577AB5C-EDD6-FF17-6408-BCB23EBCADA0</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77F07816-2D51-092A-E9BE-F976DCA3D23B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

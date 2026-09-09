@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="131D01B9-D630-65FD-0366-A24FA5D32528" name="Usuario_Recompensa">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>7EBB0260-F453-DF83-4948-BD67A021D834</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario_recompensa" id="DE650299-B68B-8E8B-67BB-372D072AFBAF">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>0E585626-FAAE-C507-3166-36CC6946F831</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_regaste" id="D1FD6981-243C-6C36-F7F3-D8FFA862E112">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>B3707ED5-B636-7133-8C7F-C2574785A69A</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_recompensa" id="E8AD357D-1BE1-48A9-5051-74C27098EE75">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>FE11AE79-B1A1-5FE6-2E26-878DF77EAC00</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB7E96E1-B494-7AA3-A0FE-D46D4F971BFE" referredColumn="AB1AE790-18B3-899D-4422-B6EA530F11FD"/>
+</associations>
+</Column>
+<Column name="id_usuario" id="CC8C3A8D-90A0-86FD-6D6C-1B8BBD82A797">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>DEBE24C0-D79E-DE62-FC15-59A4813585BA</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F7FEED6-09BD-A024-8429-A24C28F8950D" referredColumn="1EDD5124-6F31-7B5E-EF12-E4357CAAD7CB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDD60C22-2BAB-7995-3136-FC7CD75F633B" name="Usuario_Recompensa_PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>A81BA79F-7FE2-F183-E2DC-1FBD35EAC144</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE650299-B68B-8E8B-67BB-372D072AFBAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03E5CC63-BA2F-5371-44F7-6D7E4F436A06" name="Usuario_Recompensa_Recompensas_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>C82DF695-D497-88E0-BAF9-443A605C4059</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8AD357D-1BE1-48A9-5051-74C27098EE75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C1DCFBD-9B8D-0A12-61FF-7AACE6CF894F" name="Usuario_Recompensa_Usuarios_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:39:03 UTC</createdTime>
+<generatorID>B4D8840B-0213-F4BF-4CC5-627A3AD9FF1B</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8C3A8D-90A0-86FD-6D6C-1B8BBD82A797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

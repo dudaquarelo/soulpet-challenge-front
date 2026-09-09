@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="156F3771-381C-0E11-FB08-395937CA6508" name="Missao">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:06:58 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_missao" id="463B5B83-CFDD-69D5-6C31-0CD7919CA18F">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:15:53 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_titulo" id="01D1E3B7-CE5C-1F1E-5BB0-5167B2B1EED3">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:16:20 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_missao" id="B54F3FE7-FE2A-195E-C5F7-C38F6C575953">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:16:50 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_pontos_recompensa" id="83AD697E-8776-4DC4-B7F1-2042121E3978">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:17:25 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_concluida" id="6E596423-8D5C-D281-4762-5B2C252BC42C">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:18:13 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comunidade" id="C2C9A76B-BD28-D899-5A26-ADAC9B7B0699">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:43:37 UTC</createdTime>
+<generatorID>2577AB5C-EDD6-FF17-6408-BCB23EBCADA0</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<referedAttribute>7D3DAE54-AF21-C4EF-0C39-A5108177CEEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CE88D3D-CBC9-6C74-83EC-1245E8496ED3" name="Missao PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:16:17 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>463B5B83-CFDD-69D5-6C31-0CD7919CA18F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

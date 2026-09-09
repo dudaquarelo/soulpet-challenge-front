@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="12D82984-66BB-4785-F503-270767A4A2D7">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 02:42:02 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

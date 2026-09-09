@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59D7F902-F6E3-C5F5-5162-3A4C89B05D51" name="Comunidade_Ong">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:20:59 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_comunidade" id="7D3DAE54-AF21-C4EF-0C39-A5108177CEEC">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:21:19 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_comunidade" id="F07B2FD4-040F-509D-6736-AF0694C5440B">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:21:48 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_comunidade" id="01EB049F-A7F2-2FF5-F210-973C5800D226">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:22:08 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_contato" id="69F6B997-E145-30B7-7C4D-F16957F22CF3">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:22:29 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D1B4AE92-6479-0B56-E67D-D1DB5E3A9131" name="Comunidade_Ong PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:43:34 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D3DAE54-AF21-C4EF-0C39-A5108177CEEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

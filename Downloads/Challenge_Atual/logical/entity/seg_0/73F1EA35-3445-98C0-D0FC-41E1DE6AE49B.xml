@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73F1EA35-3445-98C0-D0FC-41E1DE6AE49B" name="Usuario_Missao">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:27:14 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario_missao" id="0C6EC53A-138F-33AC-1672-7F0A42264847">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:30:24 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_concluida" id="C6BEB3D8-114A-401E-D640-A81583F2F492">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:27:38 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_conclusao" id="FF5D24DC-15B6-886E-1F45-9CD2B4A51A0E">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:28:05 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario " id="637470BC-EFEB-56BF-C229-878BEC814BC9">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:37:01 UTC</createdTime>
+<generatorID>AA908934-21E0-FE6A-E152-0FA5A644E2BD</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<referedAttribute>7CFC97C7-07A8-F3CA-634C-C95929266E20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_missao" id="601377F8-C071-216C-9BED-45AB3ED88D86">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:37:18 UTC</createdTime>
+<generatorID>066901DD-FC4A-5278-044E-C5AEEDC9ECD9</generatorID>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
+</engineerTo>
+<referedAttribute>463B5B83-CFDD-69D5-6C31-0CD7919CA18F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00A6AD08-7700-673B-2EE7-CA9B5482E031" name="Usuario_Missao PK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 03:30:41 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C6EC53A-138F-33AC-1672-7F0A42264847</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

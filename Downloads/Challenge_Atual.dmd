@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Challenge_Atual" id="9A14A3C1-E1CC-5B8C-5F9F-BE1BC8B0CD1E" version="3.5">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 02:42:02 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9A14A3C1-E1CC-5B8C-5F9F-BE1BC8B0CD1E</designId>
+</OSDM_Design>
