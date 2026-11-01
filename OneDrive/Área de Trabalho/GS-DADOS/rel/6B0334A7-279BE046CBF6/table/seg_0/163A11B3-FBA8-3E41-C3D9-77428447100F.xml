@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="163A11B3-FBA8-3E41-C3D9-77428447100F" name="Usuario_Recompensa">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>CB29655B-E087-106D-E610-E3AE5BD17D4B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario_recompensa" id="35B812C0-8E04-2A5B-5D20-1F136945B649">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>7194EAE9-9985-F249-DF2A-9367FF61826A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ADC24B57-70B4-12E2-4CBB-83B7930806C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_resgate" id="B4CC308E-6B52-8878-33F3-CFCB0A583777">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>4B78474E-24BF-91A8-223F-09D0EC73D1F1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>8E86EAC3-80B6-E8DA-4FE5-06F4A52A7E56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="F2666090-1B5A-D758-D4FE-24D9DC99BA20">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>DEF22116-6A69-0D19-806B-6920484D300D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ADC24B57-70B4-12E2-4CBB-83B7930806C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="194CCDE0-CE2F-547A-DFF1-FCCC5D473630" referredColumn="EBA44FBF-961A-6881-AAA5-9C7591B3CABC"/>
+</associations>
+</Column>
+<Column name="id_recompensa" id="44A7AC60-8273-59DD-4AEC-7726DB213FDA">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>AF5E4866-4275-E7B4-337A-D6B12D527D9A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>ADC24B57-70B4-12E2-4CBB-83B7930806C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A5D7A6-67B7-CF16-0B94-912B28925E4A" referredColumn="55269D2B-0EC1-4C37-7AF6-F0DE829A7C92"/>
+</associations>
+</Column>
+<Column name="qt_pontos" id="DB922B1C-64CF-678A-7383-2929D4895506">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>AD07529B-32AF-B200-FA1C-19D50B008243</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>822FCF0E-3C6C-BCBA-5631-B1D8A6E744EE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBA294F1-D3D0-38FA-CAA6-BC84F0162A37" name="Usuario_Recompensa_PK">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>CD856CC8-87DE-8617-4282-E2D50DFBAB9F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35B812C0-8E04-2A5B-5D20-1F136945B649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18903886-ACF1-6D5C-BC3C-5393A57BA6F7" name="Usuario_Recompensa_Recomp_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44A7AC60-8273-59DD-4AEC-7726DB213FDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF1399E2-89C7-ADAD-5DC6-2EB2B0E1A73A" name="Usuario_Recompensa_Usuarios_FK">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2666090-1B5A-D758-D4FE-24D9DC99BA20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

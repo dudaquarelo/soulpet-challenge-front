@@ -25,7 +25,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>C1CB6C35-A655-A2AA-549F-E5C9AA1DDB70</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -38,7 +37,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>AF0FAA44-4647-850A-F360-044125D72394</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,7 +49,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>B20699D6-3C48-7BEE-4C03-460FCB3E8856</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -64,7 +61,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>C9D0E222-4A00-519B-B344-78D2F8A0D902</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -77,7 +73,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>47644083-6275-D957-99C7-A9BEB001696F</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -90,7 +85,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>A1C68F3F-7252-A492-241C-581DC675A789</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -112,5 +106,29 @@
 <colUsage columnID="1EDD5124-6F31-7B5E-EF12-E4357CAAD7CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="2182D7D8-2B5E-5325-9D27-4D7B9C3806FF" name="Usuarios_Email_UN">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 04:51:09 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56093823-61BA-4046-1F97-1088DC396EDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Usuarios_Pontos_CK" directorySegmentName="seg_0" id="B5D4D0BD-0106-BE7F-8B65-4A5BD31B2844">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 04:53:47 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<rule><![CDATA[qt_pontos >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Usuarios_Nivel_CK" directorySegmentName="seg_0" id="85DBFF50-D16C-2C53-A10F-910E7FF67FA8">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 04:54:14 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<rule><![CDATA[tp_nivel IN ('BRONZE', 'PRATA', 'OURO')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

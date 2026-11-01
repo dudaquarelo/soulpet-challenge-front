@@ -20,7 +20,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dt_regaste" id="D1FD6981-243C-6C36-F7F3-D8FFA862E112">
+<Column name="dt_resgate" id="D1FD6981-243C-6C36-F7F3-D8FFA862E112">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>B3707ED5-B636-7133-8C7F-C2574785A69A</generatorID>
@@ -78,7 +78,7 @@
 <colUsage columnID="DE650299-B68B-8E8B-67BB-372D072AFBAF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="03E5CC63-BA2F-5371-44F7-6D7E4F436A06" name="Usuario_Recompensa_Recompensas_FK">
+<ind_PK_UK id="03E5CC63-BA2F-5371-44F7-6D7E4F436A06" name="Usuario_Recompensa_Recomp_FK">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>C82DF695-D497-88E0-BAF9-443A605C4059</generatorID>

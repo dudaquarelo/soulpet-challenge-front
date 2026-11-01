@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Recompensas" directorySegmentName="seg_0" id="0F545155-3C16-9289-C6C1-EA12E835423E">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ds_recompensa" id="196614AB-CB23-15EE-FBD2-86CE2B11971F">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_recompensa" id="55269D2B-0EC1-4C37-7AF6-F0DE829A7C92">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="st_recompensa" id="9C72D410-CE25-CD3A-07FB-237803FCB8C0">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_recompensa" id="BFA4FE49-76B7-347D-F80F-05CAA5311E7F">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario" id="E9E8CFF2-0E41-2CE5-44E9-7ACF7903B3DB">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="qt_pontos_necessarios" id="FE19758B-FC96-FDE6-CC00-22F1F204FD48">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Pontuacao_Usuario_FK" id="24E933FB-6EC9-99CB-C9B8-C18BB21C0CE6">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Pontuacao_PK" id="6B34A03D-D5D7-54CF-7EF1-7572F140878C">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

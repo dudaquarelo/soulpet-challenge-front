@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF854992-F694-6A2D-9776-0525434A146C" containerWithKeyObject="C67ADF4B-9E96-26C0-C2A8-34960A7523BB" localFKIndex="18955F3D-162C-25A4-44A1-DC3B52E79AD7" name="Missao_Comunidade_Ong_FK">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>FBA21DB0-1284-77B5-84C3-3CFD4B975E10</importedID>
+<referredTableLongName>Comunidade_Ong</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D56CFE0-A55A-7366-7DA9-B169C0C1D954</referredTableID>
+<keyObject>60E796D9-E5F1-B879-02AC-A3F22FA70318</keyObject>
+<referredKeyID>60E796D9-E5F1-B879-02AC-A3F22FA70318</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_comunidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

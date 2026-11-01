@@ -25,7 +25,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>01D1E3B7-CE5C-1F1E-5BB0-5167B2B1EED3</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,7 +50,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>83AD697E-8776-4DC4-B7F1-2042121E3978</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -64,23 +62,11 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>6E596423-8D5C-D281-4762-5B2C252BC42C</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Comunidade_Ong_ID" id="16D7F0C6-6B67-6E7B-EEE8-EEF7465640F2">
-<createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-09-09 03:39:03 UTC</createdTime>
-<ownerDesignName>Challenge_Atual</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="id_comunidade" id="77F07816-2D51-092A-E9BE-F976DCA3D23B">
@@ -91,11 +77,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="05060B95-CEE9-9009-6AA0-8D7AA259FB80" referredColumn="A5E30C16-42EE-E427-B9A2-1A8C9DB1E71F"/>
+<colAssociation fkAssociation="05060B95-CEE9-9009-6AA0-8D7AA259FB80" referredColumn="713196E1-D9DB-6EB6-155B-1FEE2053D987"/>
 </associations>
 </Column>
 </columns>
@@ -124,4 +111,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Missao_Concluida_CK" directorySegmentName="seg_0" id="E6334A46-E628-E309-2936-4C3645FD747D">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 04:55:48 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<rule><![CDATA[st_concluida IN ('S', 'N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

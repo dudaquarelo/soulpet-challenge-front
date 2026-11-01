@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Agricultor" directorySegmentName="seg_0" id="5A876D66-6594-F2A3-AC0E-44C35B6550FD">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nr_telefone" id="183DA3EE-0EBF-1310-5EE5-A23805199396">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ds_email" id="25D39285-7C3E-9F0B-C59A-AB269C333144">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nm_agricultor" id="27E62AEA-2ECD-8495-77BD-AA13693450EE">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_agricultor" id="3A3AAF82-B243-0CAF-53DD-AC7C00364D73">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_cpf" id="40A33FF8-0E79-643E-FF16-45AC271FF768">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Agricultor_PK" id="F8FD4287-D5E7-B387-EFBB-863AA010DE56">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

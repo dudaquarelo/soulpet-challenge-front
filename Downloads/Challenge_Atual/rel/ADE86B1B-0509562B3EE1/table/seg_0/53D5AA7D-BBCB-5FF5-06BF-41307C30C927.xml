@@ -25,7 +25,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>9CE51864-74D4-1944-C2A6-D8002C64CC01</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -51,7 +50,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>8CEA5975-5A49-8762-8A2D-28E67FB3E7BF</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -64,7 +62,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>05BEE2F7-61BD-9450-9CDF-AEDBCECBC9DE</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -77,7 +74,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>3CF68AD7-3043-3913-222B-CF2701856E74</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -100,4 +96,18 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Recompensas_Custo_CK" directorySegmentName="seg_0" id="83F1A298-7445-F298-0A5A-9D67D89DDFC2">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 04:54:58 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<rule><![CDATA[qt_custo_pontos > 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Recompensas_Estoque_CK" directorySegmentName="seg_0" id="E5A226B1-055F-2572-D571-6AE529F83DC0">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 04:55:20 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<rule><![CDATA[qt_estoque >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

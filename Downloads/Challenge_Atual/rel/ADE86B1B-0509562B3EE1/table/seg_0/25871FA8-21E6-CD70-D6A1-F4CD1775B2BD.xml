@@ -25,7 +25,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>F07B2FD4-040F-509D-6736-AF0694C5440B</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -38,7 +37,6 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>01EB049F-A7F2-2FF5-F210-973C5800D226</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,19 +57,6 @@
 <ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Comunidade_Ong_ID" id="A5E30C16-42EE-E427-B9A2-1A8C9DB1E71F">
-<createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-09-09 03:39:03 UTC</createdTime>
-<ownerDesignName>Challenge_Atual</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
-<identityColumn>true</identityColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<isSurrogateColumn>true</isSurrogateColumn>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AC297E22-9CC1-E4C1-AC7C-705E139B2A2F" name="Comunidade_Ong_PK">
@@ -80,17 +65,6 @@
 <ownerDesignName>Challenge_Atual</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<indexColumnUsage>
-<colUsage columnID="A5E30C16-42EE-E427-B9A2-1A8C9DB1E71F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="5AC2AF7F-51E7-3954-B389-1A996F35D7FC" name="Comunidade_Ong_id_comunidade_UN">
-<createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-09-09 03:43:45 UTC</createdTime>
-<generatorID>D1B4AE92-6479-0B56-E67D-D1DB5E3A9131</generatorID>
-<ownerDesignName>Challenge_Atual</ownerDesignName>
-<indexState>Unique Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="713196E1-D9DB-6EB6-155B-1FEE2053D987"/>
 </indexColumnUsage>

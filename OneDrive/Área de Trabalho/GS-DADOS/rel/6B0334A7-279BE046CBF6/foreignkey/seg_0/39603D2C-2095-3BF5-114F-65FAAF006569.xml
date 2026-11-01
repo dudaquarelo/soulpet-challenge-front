@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39603D2C-2095-3BF5-114F-65FAAF006569" containerWithKeyObject="DCA81AB3-5743-6358-C12D-984951DAA81D" localFKIndex="0AB3ACA8-4480-5A0A-F137-13496A796612" name="Pets_Usuarios_FK">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>07E94757-78B2-3CD6-2C21-5FC301CF19A1</importedID>
+<referredTableLongName>Usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36453FCD-BBE9-4A4C-4729-1298D1DBD53C</referredTableID>
+<keyObject>F38090AC-0A97-97D3-3F32-BAE192A452F1</keyObject>
+<referredKeyID>F38090AC-0A97-97D3-3F32-BAE192A452F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

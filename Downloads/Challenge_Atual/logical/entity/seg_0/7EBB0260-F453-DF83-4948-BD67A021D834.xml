@@ -28,7 +28,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_regaste" id="B3707ED5-B636-7133-8C7F-C2574785A69A">
+<Attribute name="dt_resgate" id="B3707ED5-B636-7133-8C7F-C2574785A69A">
 <createdBy>Isabelle Souza</createdBy>
 <createdTime>2026-09-09 03:26:35 UTC</createdTime>
 <ownerDesignName>Challenge_Atual</ownerDesignName>

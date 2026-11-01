@@ -35,7 +35,6 @@
 <engineerTo>
 <item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -63,7 +62,6 @@
 <engineerTo>
 <item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -77,16 +75,15 @@
 <engineerTo>
 <item key="ADE86B1B-AFAA-117D-BA57-0509562B3EE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_comunidade" id="C2C9A76B-BD28-D899-5A26-ADAC9B7B0699">
+<Attribute name="id_comunidade" id="CED1E0B0-FDD1-A7E1-CF36-1AA1334E1988">
 <createdBy>Isabelle Souza</createdBy>
-<createdTime>2026-09-09 03:43:37 UTC</createdTime>
+<createdTime>2026-09-09 04:34:01 UTC</createdTime>
 <generatorID>2577AB5C-EDD6-FF17-6408-BCB23EBCADA0</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
 <engineerTo>

@@ -25,12 +25,11 @@
 <createdTime>2026-09-09 03:39:03 UTC</createdTime>
 <generatorID>C6BEB3D8-114A-401E-D640-A81583F2F492</generatorID>
 <ownerDesignName>Challenge_Atual</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="dt_conclusao" id="108791D3-11A1-8FC5-12C5-BBA4490900A5">
@@ -114,4 +113,12 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Usuario_Missao_Concluida_CK" directorySegmentName="seg_0" id="9BB65C01-02E3-684F-D3B9-DE059F65CEB7">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 04:56:18 UTC</createdTime>
+<ownerDesignName>Challenge_Atual</ownerDesignName>
+<rule><![CDATA[st_concluida IN ('S', 'N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

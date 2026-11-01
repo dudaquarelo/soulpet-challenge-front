@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="Propriedade" directorySegmentName="seg_0" id="66168A30-577C-C94D-0DBB-1C50FFE7BC08">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="id_propriedade" id="1CDFEB18-0A5D-D902-B2F7-3EDFB055554A">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="ds_localizacao" id="574C8CB6-0B21-B16F-5A88-E49FEC71AF21">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="nm_propriedade" id="6BDB599B-5B68-0DF8-A2CD-F5886F0311AF">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="nr_hectares" id="A3103801-011B-D8E0-FF43-75C3DE6F7061">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="id_agricultor" id="C066F30D-8D1F-AB5F-2822-0CB29AC31C58">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Propriedade_Agricultor_FK" id="EED14FB7-5A71-C0D8-AEB6-3B0EB74A03A4">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="Propriedade_PK" id="580BF78E-8EFB-1554-B3C3-E803698365D6">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxySqlServerv2k5 class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.TableProxySqlServerv2k5" name="Monitoramento" directorySegmentName="seg_0" id="E0193BCB-C63C-478A-FCAF-7185D4F26960">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<database>DB_NULLELEMENT</database>
+<columnProxies>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="id_monitoramento" id="16F2117B-0DC6-3B6E-A39F-0F9B8E158B22">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="nr_umidade_minima" id="32DB8932-2340-FBA8-8D04-84D30CE8742A">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="nr_umidade_maxima" id="54D7E25F-040A-4B53-ABFB-8AC478E12089">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="id_propriedade" id="5965BA1C-7684-4945-5CBC-86E447110614">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="nm_zona" id="70458FA1-4EF3-9E0A-8E4C-322B52AF35FB">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.ColumnProxySqlServerv2k5" name="ds_coordenadas" id="D778CEA6-BA93-71EC-F261-C3F751398E22">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.FKProxySqlServerv2k5" name="Monitoramento_Propriedade_FK" id="6CF75056-8F1A-3C32-F85F-F65689DB64CA">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k5.PKProxySqlServerv2k5" name="Monitoramento_PK" id="06548511-7665-DFF0-CBCA-8B10051BCED2">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:24:44 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<clustered>true</clustered>
+</PrimaryKey>
+</primaryKeys>
+</TableProxySqlServerv2k5>

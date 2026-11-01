@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4F2F0E2-9B1F-CDC3-121F-48C10D05AEAA" containerWithKeyObject="0F545155-3C16-9289-C6C1-EA12E835423E" localFKIndex="24E933FB-6EC9-99CB-C9B8-C18BB21C0CE6" name="Pontuacao_Usuario_FK">
+<sourceDDLFile>soulpet_modelo.sql</sourceDDLFile>
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:39 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<importedID>4D9F58C4-56D8-8D11-8968-257207B6BBC3</importedID>
+<referredTableLongName>Usuarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36453FCD-BBE9-4A4C-4729-1298D1DBD53C</referredTableID>
+<keyObject>F38090AC-0A97-97D3-3F32-BAE192A452F1</keyObject>
+<referredKeyID>F38090AC-0A97-97D3-3F32-BAE192A452F1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

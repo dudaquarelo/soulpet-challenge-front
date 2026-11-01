@@ -5,4 +5,9 @@
 <ownerDesignName>GS-DADOS</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>CA3998A4-9862-ED0C-18BC-2D51F446ABEB</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A9013C6B-8EF2-63B6-4C05-339C5F85F25E">
+<designStoragePath>C:\soulpet_modelo</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

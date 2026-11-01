@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Monitoramento_Satelite" directorySegmentName="seg_0" id="E50DA3D0-3A7F-08A9-5EB3-C339C5DE6F13">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_monitoramento_1" id="2322D541-813B-4181-CF94-7E0FE1CAFA88">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_monitoramento" id="44A7B709-1CDD-4BD3-3737-DFC9953A24DD">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nr_umidade_capturada" id="78F9D42E-F104-39D2-2BCC-70E93634BA14">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dt_captura" id="94739A67-61DD-6E37-1E60-C82ACE38F398">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_satelite" id="C6DE726B-5381-8BC2-9695-3E96BA19AE83">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Monitoramento_Satelite_Moni_FK" id="0746406C-5929-5D3B-C046-2609A1406901">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Monitoramento_Satelite_Sat_FK" id="72246DD5-D41A-94E9-C6EC-01B66B7BE86D">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Monitoramento_Satelite_PK" id="B9C3ED9D-3253-F155-68B6-37242DC28A0B">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="Monitoramento_Satelite__UN" id="54D0317D-C9FB-9FFC-D62D-449C05AC36A2">
+<createdBy>Isabelle Souza</createdBy>
+<createdTime>2026-09-09 00:27:07 UTC</createdTime>
+<ownerDesignName>GS-DADOS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
